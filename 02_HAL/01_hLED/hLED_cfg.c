@@ -1,0 +1,16 @@
+#include "STD_TYPES.h"
+#include "GPIO.h"
+#include "hLED.h"
+#include "hLED_cfg.h"
+
+/* Leds configuration array */
+extern const LED_t LED_arrMap[LED_MAX_NUMBER] = {
+	
+	/*
+		{LED_NAME, LED_PORT, LED_PIN_MASK, PIN_SPEED, LED_ACTIVE_STATE}
+	*/
+	
+	{LED0, LED0_PORT, LED0_PIN, GPIO_SPEED_2MHZ_MASK, LED0_ACTIVE_STATE},
+	{LED1, LED1_PORT, LED1_PIN, GPIO_SPEED_2MHZ_MASK, LED1_ACTIVE_STATE},
+	{LED2, LED2_PORT, LED2_PIN, GPIO_SPEED_2MHZ_MASK, LED2_ACTIVE_STATE}		
+};

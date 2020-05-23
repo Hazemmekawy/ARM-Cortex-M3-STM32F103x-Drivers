@@ -1,0 +1,87 @@
+#ifndef USART_CFG_H
+#define USART_CFG_H
+
+/*
+	Baudrate configuration options: 
+	1- ASYNCHRONOUS
+	2- SYNCHRONOUS
+*/
+#define USART1_SYNC					ASYNCHRONOUS
+#define USART2_SYNC					ASYNCHRONOUS
+#define USART3_SYNC					ASYNCHRONOUS
+
+/* 
+	Baudrate configuration options: 
+	1- BAUD_1200
+	2- BAUD_2400
+	3- BAUD_4800
+	4- BAUD_9600
+	5- BAUD_19200 
+	6- BAUD_38400 
+	7- BAUD_57600 
+	8- BAUD_115200
+*/
+#define USART1_BAUDRATE1			BAUD_9600
+#define USART2_BAUDRATE1			BAUD_9600
+#define USART3_BAUDRATE1			BAUD_9600
+
+/* 
+	Stop bits configuration options: 
+	1- STOP_BITS_1 
+	2- STOP_BITS_0_5 
+	3- STOP_BITS_2
+	4- STOP_BITS_1_5
+*/
+#define USART1_STOP_BITS			STOP_BITS_1
+#define USART2_STOP_BITS			STOP_BITS_1
+#define USART3_STOP_BITS			STOP_BITS_1
+
+/* 
+	Parity bit configuration options: 
+	1- EVEN_PARITY
+	2- ODD_PARITY
+	3- NO_PARITY
+*/
+#define USART1_PARITY_BIT			NO_PARITY
+#define USART2_PARITY_BIT			NO_PARITY
+#define USART3_PARITY_BIT			NO_PARITY
+
+/* 
+	Channel direction configuration options: 
+	1- FULL_DUPLEX
+	2- HALF_DUPLEX
+	3- SIMPLEX_T
+	4- SIMPLEX_R
+*/
+#define USART1_CHANNEL_DIRECTION	FULL_DUPLEX
+#define USART2_CHANNEL_DIRECTION	FULL_DUPLEX
+#define USART3_CHANNEL_DIRECTION	FULL_DUPLEX
+
+/* 
+	Parity bit configuration options: 
+	1- DMA_DISABLED
+	2- DMA_ENABLED
+*/
+#define USART1_Rx_DMA_STATE			DMA_DISABLED
+#define USART2_Rx_DMA_STATE			DMA_DISABLED
+#define USART3_Rx_DMA_STATE			DMA_DISABLED
+
+/* 
+	Parity bit configuration options: 
+	1- DMA_DISABLED
+	2- DMA_ENABLED
+*/
+#define USART1_Tx_DMA_STATE			DMA_DISABLED
+#define USART2_Tx_DMA_STATE			DMA_DISABLED
+#define USART3_Tx_DMA_STATE			DMA_DISABLED
+
+/* 
+	LIN bit configuration options: 
+	1- LIN_DISABLED
+	2- LIN_ENABLED
+*/
+#define USART1_LIN_STATE			LIN_DISABLED
+#define USART2_LIN_STATE			LIN_DISABLED
+#define USART3_LIN_STATE			LIN_DISABLED
+
+#endif /* USART_CFG_H */

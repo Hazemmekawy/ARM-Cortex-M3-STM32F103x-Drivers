@@ -1,0 +1,8 @@
+#ifndef SCHEDULER_CFG_H
+#define SCHEDULER_CFG_H
+
+#define TICK_TIME_US	((u32)5000)
+
+#define SCHEDULER_TASKS_MAX_NUMBER		1
+
+#endif /* SCHEDULER_CFG_H */

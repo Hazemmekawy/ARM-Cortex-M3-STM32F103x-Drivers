@@ -1,0 +1,20 @@
+#ifndef HLED_CFG_H
+#define HLED_CFG_H
+
+#define LED0				LED_RED
+#define LED0_PORT			GPIOA
+#define LED0_PIN			GPIO_PIN_12
+#define LED0_ACTIVE_STATE	LED_ACTIVE_HIGH
+
+#define LED1				LED_GREEN
+#define LED1_PORT			GPIOA
+#define LED1_PIN			GPIO_PIN_12
+#define LED1_ACTIVE_STATE	LED_ACTIVE_HIGH
+
+#define LED2				LED_YELLOW
+#define LED2_PORT			GPIOA
+#define LED2_PIN			GPIO_PIN_12
+#define LED2_ACTIVE_STATE	LED_ACTIVE_HIGH
+
+
+#endif /* HLED_CFG_H */
